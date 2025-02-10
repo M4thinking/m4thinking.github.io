@@ -95,3 +95,168 @@
   type: list
   contents:
     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Full Name
+#       value: Sebastián Guzmán Olave
+#     - name: Date of Birth
+#       value: Not specified
+#     - name: Languages
+#       value: Spanish, English
+
+# - title: Education
+#   type: time_table
+#   contents:
+#     - title: Magíster en Ciencias de la Ingeniería, Mención Eléctrica
+#       institution: Universidad de Chile, Santiago, Chile
+#       year: 2023-2024
+#       description:
+#         - Description 1.
+#         - Description 2.
+#     - title: Licenciatura en Ingeniería Eléctrica y Electrónica
+#       institution: Universidad de Chile, Santiago, Chile
+#       year: 2019-2023
+#       description:
+#         - Description 1.
+#         - Description 2.
+#     - title: Minor en Computación
+#       institution: Universidad de Chile, Santiago, Chile
+#       year: 2021-2023
+#       description:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Experience
+#   type: time_table
+#   contents:
+#     - title: Ayudante de EL7006 Redes Neuronales y Teoría de Información para el Aprendizaje
+#       institution: Departamento de Ingeniería Eléctrica, Universidad de Chile
+#       year: 2024 (6 months)
+#       description:
+#         - Seguimiento de proyectos avanzados en IA, evaluación de código y presentaciones.
+#         - Temas: Redes recurrentes (RNN, LSTM, GRU), aprendizaje basado en teoría de la información, modelos generativos (VAE, GAN, DDPM, SBGM, GFlowNets).
+#     - title: Ayudante de EL4106 Inteligencia Computacional
+#       institution: Departamento de Ingeniería Eléctrica, Universidad de Chile
+#       year: 2024 (6 months)
+#       description:
+#         - Seguimiento de proyectos en IA, evaluación de código y presentaciones.
+#         - Temas: Machine Learning (SVM, Random Forest, XGBoost), Deep Learning en PyTorch (CNN, RNN, Autoencoders).
+#     - title: Auxiliar de EL4105 Control Avanzado de Sistemas
+#       institution: Departamento de Ingeniería Eléctrica, Universidad de Chile
+#       year: 2024 (10 months)
+#       description:
+#         - Clases auxiliares: Control Óptimo, Control Difuso, Control Neuronal, Identificación de Sistemas.
+#     - title: Auxiliar de EL3203 Análisis de Señales
+#       institution: Departamento de Ingeniería Eléctrica, Universidad de Chile
+#       year: 2023 (6 months)
+#       description:
+#         - Clases auxiliares: Transformada de Fourier, Serie de Fourier, Teorema de Muestreo, Filtros (IIR/FIR).
+#     - title: Practicante Universitario
+#       institution: Universidad Andrés Bello
+#       year: 2022-2023 (3 months)
+#       description:
+#         - Desarrollo de una aplicación web SCADA para microrredes eléctricas utilizando Django, Docker y PostgreSQL.
+#     - title: Practicante Área Gerencia Técnica
+#       institution: J.E.J. Ingeniería S.A.
+#       year: 2022 (2 months)
+#       description:
+#         - Medición e interpretación de sondeos eléctricos verticales para subestaciones eléctricas.
+
+# - title: Projects
+#   type: time_table
+#   contents:
+#     - title: Tracker de Personas con Cámara RGBD
+#       year: 2023
+#       description:
+#         - Aplicación de modelos de visión computacional para detección de personas en movimiento.
+#         - Algoritmos de identificación y re-identificación mediante features convolucionales y filtros de partículas.
+#     - title: Hackathon NASA Space Apps Challenge
+#       year: Not specified
+#       description:
+#         - Segundo lugar en categoría avanzada.
+#         - Desarrollo de una solución para optimizar el uso de agua en agricultura mediante datos satelitales.
+#     - title: Hack the Challenge 2024
+#       year: 2024
+#       description:
+#         - Primer lugar.
+#         - Solución de problemas en la industria minera utilizando IA generativa, Data & Analytics y Gemelos Digitales.
+
+# - title: Technical Skills
+#   type: nested_list
+#   contents:
+#     - title: Programming Languages
+#       items:
+#         - Python
+#         - SQL
+#         - MATLAB
+#         - Java
+#         - JavaScript
+#         - C/C++
+#         - R
+#     - title: Frameworks
+#       items:
+#         - PyTorch
+#         - TensorFlow
+#         - Scikit-learn
+#         - Pandas
+#         - Django
+#         - ROS
+#         - Docker
+#     - title: Tools
+#       items:
+#         - GCP
+#         - VertexAI
+#         - Git
+#         - GitHub
+#         - Conda
+#         - Linux (Ubuntu/Debian)
+#     - title: Areas of Expertise
+#       items:
+#         - IA generativa
+#         - visión computacional
+#         - teoría de la información
+#         - procesamiento de señales
+#         - robótica
+
+# - title: Awards and Recognition
+#   type: time_table
+#   contents:
+#     - year: 2024
+#       items:
+#         - Beca de Magíster Nacional
+#     - year: 2023
+#       items:
+#         - Alumno destacado de Ingeniería Civil Eléctrica
+#     - year: 2022
+#       items:
+#         - Espíritu Eléctrico
+#     - year: 2021
+#       items:
+#         - Espíritu Eléctrico
+#     - year: 2021
+#       items:
+#         - 7mo lugar en ICPC Torneo Chileno de Programación
+#     - year: 2019
+#       items:
+#         - Puntaje Nacional en Matemáticas (PSU 2018)
+
+# - title: Personal Interests
+#   type: list
+#   contents:
+#     - Actividades al aire libre: acampar, hacer ejercicio.
+#     - Lectura de artículos científicos y películas de suspenso/ciencia ficción.
+#     - 13 años como scout, desarrollando habilidades de liderazgo y trabajo en equipo.
+
+# - title: Contact
+#   type: map
+#   contents:
+#     - name: Email
+#       value: sebastianguzman@ug.uchile.cl
+#     - name: Phone
+#       value: (+56) 9 9347 9880
+#     - name: GitHub
+#       value: github.com/M4thinking
+#     - name: LinkedIn
+#       value: @sebastian-guzman-o

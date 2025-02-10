@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - m4thinking
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - dcc-cc3002/aventurasdemarcosyluis-M4thinking
+  - M4thinking/Genetic-Algorithms
+  - M4thinking/DestillML
+  - M4thinking/Mismodelling-on-Time-Series
+  - M4thinking/PHM-Data-Challenge-2023
+  - M4thinking/E-Commerce-Chatbot

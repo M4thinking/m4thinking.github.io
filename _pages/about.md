@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://www.uchile.cl/'>Universidad de Chile</a>. Beauchef 851, Santiago, Chile. <a href='https://ingenieria.uchile.cl/'>Facultad de Ciencias Físicas y Matemáticas</a>
 
 profile:
   align: right
@@ -27,9 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Soy Sebastián Guzmán, estudiante de Magíster en Ingeniería Eléctrica en la Universidad de Chile,
- apasionado por descifrar los misterios del Deep Learning y la ciencia de datos. Mi viaje abarca
-  desde modelos generativos (como LLMs, VAEs y diffusion models) hasta técnicas de explicabilidad
-   en IA (XAI), siempre buscando conectar la teoría con aplicaciones prácticas. He trabajado en proyectos
-    tan diversos como diagnóstico de fallas, inteligencia artificial en astronomía, robótica móvil, análisis
-     de señales cerebrales (EEG), optimización agrícola con imágenes satelitales y desarrollo de agentes inteligentes..
+I'm Sebastián Guzmán, a Master's student in Electrical Engineering at Universidad de Chile, passionate about unraveling the mysteries of Deep Learning and Data Science. My journey spans from generative models (like LLMs, VAEs, and diffusion models) to explainable AI (XAI) techniques, always seeking to bridge theory with practical applications. I've worked on diverse projects including fault diagnosis, AI in astronomy, mobile robotics, brain signal analysis (EEG), agricultural optimization using satellite imagery, and intelligent agent development.
+
+Throughout my academic journey, I've undertaken projects using Java, C++, and web technologies, although my primary programming focus is Python, particularly in the context of data science. I have a special interest in electronics, and I enjoy activities like exercising and camping. My goal is to continue pushing my boundaries and, above all, to contribute my energy and knowledge to help those in need.

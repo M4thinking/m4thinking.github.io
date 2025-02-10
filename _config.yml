@@ -88,8 +88,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Exploring Neural Frontiers # blog_name will be displayed in your blog page
+blog_description: Exploring the frontiers of Deep Learning in astronomy, robotics, and research. Join me on my journey through neural networks, computer vision, and intelligent systems as an enthusiastic student.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 

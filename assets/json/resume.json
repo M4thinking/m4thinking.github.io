@@ -1,200 +1,324 @@
 {
-  "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+    "basics": {
+      "name": "Sebastián Guzmán Olave",
+      "label": "MSc Student | Deep Learning | Data Science", 
+      "image": "",
+      "email": "sebastianguzman@ug.uchile.cl",
+      "phone": "(+56) 9 9347 9880",
+      "url": "github.com/M4thinking",
+      "summary": "I am a passionate learner currently immersed in the study of various generative models, such as LLM, VAE, GAN, Score-based/Diffusion, as well as in techniques of explainability in artificial intelligence (XAI), information theory methods applied to learning and computer vision. My recent projects have focused on the e-commerce, mobile robotics, fault diagnosis, EEG signal analysis, satellite image processing for agriculture and agents.",
+      "location": {
+        "address": "Rancagua, Región del Libertador General Bernardo O'Higgins, Chile",
+        "postalCode": "",
+        "city": "Rancagua",
+        "countryCode": "CL",
+        "region": "Región del Libertador General Bernardo O'Higgins"
+      },
+      "profiles": [
+        {
+          "network": "GitHub",
+          "username": "M4thinking",
+          "url": "github.com/M4thinking"
+        },
+        {
+          "network": "LinkedIn",
+          "username": "sebastian-guzman-o",
+          "url": "https://www.linkedin.com/in/sebastian-guzman-o/"
+        }
+      ]
     },
-    "profiles": [
+    "work": [
+    {
+        "name": "Departamento de Ingeniería Eléctrica, Universidad de Chile",
+        "position": "Ayudante de EL7006 Redes Neuronales y Teoría de Información para el Aprendizaje",
+        "url": "https://example.com",
+        "startDate": "2024-07-01",
+        "endDate": "2024-12-01",
+        "summary": "Seguimiento de proyectos avanzados en IA: Evaluación de código, revisiones técnicas y mentoría en arquitecturas neuronales avanzadas. Temas: Modelos generativos (VAE, GAN, Difusión), teoría de información aplicada a aprendizaje profundo y métodos de kernel.",
+        "highlights": ["Generative AI", "Information Theory", "RKHS", "Deep Learning"]
+        },
+    {
+        "name": "Departamento de Ingeniería Eléctrica, Universidad de Chile",
+        "position": "Ayudante de EL4106 Inteligencia Computacional",
+        "url": "https://example.com",
+        "startDate": "2024-07-01",
+        "endDate": "2024-12-01",
+        "summary": "Soporte en proyectos de aprendizaje automático y profundo: Evaluación de implementaciones en PyTorch, técnicas de clustering y métodos de reducción dimensional. Temas: SVM, XGBoost, CNN y modelos de series temporales.",
+        "highlights": ["PyTorch", "Machine Learning", "Dimensionality Reduction", "Time Series Analysis", "Data Visualization"]
+        },
+    {
+        "name": "Departamento de Ingeniería Eléctrica, Universidad de Chile",
+        "position": "Auxiliar de EL7031 Robotics, Sensing and Autonomous Systems",
+        "url": "https://example.com",
+        "startDate": "2024-03-01",
+        "endDate": "2024-07-01",
+        "summary": "Clases auxiliares de magister: Sensores robóticos (SONAR, RADAR, LiDAR), diseño e implementación de filtros (Kalman, Kalman Extendido, Filtros de Partículas).",
+        "highlights": ["Kalman Filters", "SLAM", "Robotic Sensing"]
+    },
+    {
+        "name": "Departamento de Ingeniería Eléctrica, Universidad de Chile",
+        "position": "Ayudante de EL3101 Análisis y Diseño de Circuitos Eléctricos",
+        "url": "https://example.com",
+        "startDate": "2024-03-01",
+        "endDate": "2024-07-01",
+        "summary": "Revisión de evaluaciones y actividades académicas. Temas: Diseño y análisis de circuitos eléctricos avanzados.",
+        "highlights": ["Circuit Design", "Analog Electronics", "Academic Assessment"]
+    },
+    {
+        "name": "Departamento de Ingeniería Eléctrica, Universidad de Chile",
+        "position": "Ayudante de EL3104 Probabilidad y Procesos Estocásticos",
+        "url": "https://example.com",
+        "startDate": "2024-03-01",
+        "endDate": "2024-07-01",
+        "summary": "Evaluación de controles, exámenes y tareas. Temas: Fundamentos de probabilidad y análisis de procesos estocásticos.",
+        "highlights": ["Probability Theory", "Stochastic Analysis", "Statistical Modeling"]
+    },
+    {
+        "name": "Departamento de Ingeniería Eléctrica, Universidad de Chile",
+        "position": "Ayudante de EL7012 Control Inteligente de Sistemas",
+        "url": "https://example.com",
+        "startDate": "2024-03-01",
+        "endDate": "2024-07-01",
+        "summary": "Desarrollo de material académico para magister: Arquitecturas neuronales (Transformers, RNNs) aplicadas a control de sistemas.",
+        "highlights": ["Neural Control", "Deep Learning", "System Automation"]
+    },
+    {
+        "name": "Departamento de Ingeniería Eléctrica, Universidad de Chile",
+        "position": "Ayudante de EL4105 Control Avanzado de Sistemas",
+        "url": "https://example.com",
+        "startDate": "2023-08-01",
+        "endDate": "2023-12-01",
+        "summary": "Soporte en controles avanzados: Implementación de controles óptimos y difusos usando MATLAB.",
+        "highlights": ["MATLAB", "Fuzzy Control", "Predictive Control"]
+    },
+    {
+        "name": "Centro de Transformación Energética, Universidad Andrés Bello",
+        "position": "Practicante Universitario",
+        "url": "https://example.com",
+        "startDate": "2022-11-01",
+        "endDate": "2023-01-01",
+        "summary": "Desarrollo de sistema SCADA para microrredes eléctricas usando Django: Implementación de interfaces Modbus, diseño de base de datos PostgreSQL y despliegue con Docker.",
+        "highlights": ["SCADA Systems", "Django", "Modbus", "Docker", "Energy Monitoring"]
+      },
+    {
+        "name": "Departamento de Ingeniería Eléctrica, Universidad de Chile",
+        "position": "Auxiliar de EL3203 Análisis de Señales",
+        "url": "https://example.com",
+        "startDate": "2023-03-01",
+        "endDate": "2023-08-01",
+        "summary": "Clases auxiliares: Análisis espectral de señales, diseño de filtros digitales y aplicaciones del teorema de muestreo. Implementación de técnicas en MATLAB/Simulink.",
+        "highlights": ["Digital Signal Processing", "Filter Design", "Fourier Analysis", "MATLAB"]
+    },
+    {
+        "name": "Departamento de Ingeniería Eléctrica, Universidad de Chile",
+        "position": "Auxiliar de EL3204 Análisis de Sistemas Dinámicos y Estimación",
+        "url": "https://example.com",
+        "startDate": "2022-03-01",
+        "endDate": "2022-07-01",
+        "summary": "Clases auxiliares: Modelos de espacio de estado, estimación con filtro de Kalman, y análisis de estabilidad de sistemas.",
+        "highlights": ["State-Space Models", "Kalman Filter", "System Stability"]
+    },
+    {
+        "name": "J.E.J. INGENIERÍA S.A.",
+        "position": "Practicante Área Gerencia Técnica",
+        "url": "https://example.com",
+        "startDate": "2022-01-01",
+        "endDate": "2022-02-01",
+        "summary": "Medición e interpretación de sondeos eléctricos verticales para sistemas de puesta a tierra en subestaciones de EFE Trenes de Chile. Métodos aplicados: Wenner y Schlumberger. Desarrollo de software en MATLAB para inversión de curvas mediante método de Newton-Raphson, con generación de informes técnicos en Excel.",
+        "highlights": [
+          "MATLAB",
+          "Microsoft Excel",
+          "Electrical Grounding",
+          "Geoelectric Methods",
+          "Newton-Raphson"
+        ]
+    }
+    ],
+    "projects": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "name": "Tracker de Personas con Cámara RGBD",
+        "summary": "Aplicación de modelos de visión computacional para detección de personas en movimiento. Algoritmos de identificación y re-identificación mediante features convolucionales y filtros de partículas.",
+        "startDate": "2023-07-01",
+        "endDate": "2023-12-01",
+        "url": "https://example.com"
+      },
+      {
+        "name": "Chatbot Inteligente para Palacio de Hierro",
+        "summary": "Desarrollo de sistema conversacional para recomendación de productos, integrando web scraping avanzado y despliegue en GCP. Pipeline completo de obtención de datos (BeautifulSoup), procesamiento (Pandas) e implementación cloud (Vertex AI, BigQuery).",
+        "startDate": "2023-06-01",
+        "endDate": "2023-12-01",
+        "url": "https://example.com"
+      },
+      {
+        "name": "Hack the Challenge 2024",
+        "summary": "Solución de problemas en la industria minera utilizando IA generativa, Data & Analytics y Gemelos Digitales.",
+        "startDate": "2024-05-01",
+        "endDate": "2024-05-03",
+        "url": "https://example.com"
+      },
+      {
+        "name": "Hackathon NASA Space Apps Challenge",
+        "summary": "Desarrollo de una solución para optimizar el uso de agua en agricultura mediante datos satelitales.",
+        "startDate": "2024-11-08",
+        "endDate": "2024-11-10",
+        "url": "https://example.com"
       }
-    ]
-  },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
-}
+    ],
+    "education": [
+      {
+        "institution": "Universidad de Chile",
+        "area": "Magíster en Ciencias de la Ingeniería, Mención Eléctrica",
+        "studyType": "MSc",
+        "startDate": "2023-03-01",
+        "endDate": "2024-12-01",
+        "courses": [
+            "Deep Learning (RNN/LSTM/GRU, Transformers, PyTorch)",
+            "Teoría de Información (Correntropía, Entropía de Rényi, RKHS)",
+            "Modelos Generativos (GAN, VAE, Difusión, GFlowNets)"
+        ]
+      },
+      {
+        "institution": "Universidad de Chile",
+        "area": "Licenciatura en Ingeniería Eléctrica y Electrónica",
+        "studyType": "BSc",
+        "startDate": "2019-01-01",
+        "endDate": "2023-11-01",
+        "courses": [
+            "Control Óptimo y Predictivo (LQR, MPC, Sistemas difusos)",
+            "Procesamiento de Señales (Fourier, Filtros IIR/FIR, Teorema de muestreo)",
+            "Identificación de Sistemas (Espacio de estado, Kalman Filter)",
+            "Machine Learning (SVM, XGBoost, Clustering, Métricas de evaluación)",
+            "Robótica (Sensores LiDAR/RADAR, SLAM, Filtrado Bayesiano)"
+        ]
+      },
+      {
+        "institution": "Universidad de Chile",
+        "area": "Minor en Computación",
+        "studyType": "Minor",
+        "startDate": "2021-01-01",
+        "endDate": "2023-01-01",
+        "courses": ["Metodologías de Diseño y Programación", "Bases de Datos", "Ingeniería de Software", "Programación de Software de Sistemas"]
+      }
+    ],
+    "awards": [
+      {
+        "title": "Primer Lugar en Hackaton de Computación Cuántica",
+        "date": "2024-01-01",
+        "awarder": "Millennium Institute of Research Optics (MIRO)",
+        "url": "https://example.com",
+        "summary": "Ganador del primer lugar en la Tercera Escuela de Computación Cuántica"
+      },
+      {
+        "title": "Beca de Magíster Nacional",
+        "date": "2024-03-01",
+        "awarder": "ANID",
+        "url": "https://www.anid.cl/becas/beca-de-magister-nacional/",
+        "summary": "Beca de Magíster Nacional"
+      },
+      {
+        "title": "Alumno destacado de Ingeniería Civil Eléctrica",
+        "date": "2023-12-01",
+        "awarder": "Universidad de Chile",
+        "url": "https://www.uchile.cl/",
+        "summary": "Alumno destacado de Ingeniería Civil Eléctrica"
+      },
+      {
+        "title": "Espíritu Eléctrico",
+        "date": "2022-10-01",
+        "awarder": "Departamento de Ingeniería Eléctrica, Universidad de Chile",
+        "url": "https://www.uchile.cl/",
+        "summary": "Espíritu Eléctrico"
+      },
+      {
+        "title": "7mo lugar en ICPC Torneo Chileno de Programación",
+        "date": "2021-12-01",
+        "awarder": "UTFSM, Valparaíso",
+        "url": "https://www.usm.cl/",
+        "summary": "7mo lugar en ICPC Torneo Chileno de Programación"
+      },
+      {
+        "title": "Puntaje Nacional en Matemáticas (PSU 2018)",
+        "date": "2019-02-01",
+        "awarder": "DEMRE",
+        "url": "https://www.demre.cl/",
+        "summary": "Puntaje Nacional en Matemáticas (PSU 2018)"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Lenguajes",
+        "level": "Master",
+        "icon": "fa-solid fa-hashtag",
+        "keywords": [
+          "Python",
+          "SQL",
+          "MATLAB",
+          "Java",
+          "JavaScript",
+          "C/C++",
+          "R"
+        ]
+      },
+      {
+        "name": "Frameworks",
+        "level": "Master",
+        "icon": "fa-solid fa-hashtag",
+        "keywords": [
+          "PyTorch",
+          "TensorFlow",
+          "Scikit-learn",
+          "Pandas",
+          "Django",
+          "ROS",
+          "Docker"
+        ]
+      },
+      {
+        "name": "Herramientas",
+        "level": "Master",
+        "icon": "fa-solid fa-hashtag",
+        "keywords": [
+          "GCP",
+          "VertexAI",
+          "Git",
+          "GitHub",
+          "Conda",
+          "Linux (Ubuntu/Debian)"
+        ]
+      },
+      {
+        "name": "Áreas de expertise",
+        "level": "Master",
+        "icon": "fa-solid fa-hashtag",
+        "keywords": [
+          "IA generativa",
+          "visión computacional",
+          "teoría de la información",
+          "procesamiento de señales",
+          "robótica"
+        ]
+      }
+    ],
+    "interests": [
+      {
+        "name": "Actividades al aire libre",
+        "icon": "fa-solid fa-tag",
+        "keywords": [
+          "acampar",
+          "hacer ejercicio"
+        ]
+      },
+      {
+        "name": "Lectura de artículos científicos y películas de suspenso/ciencia ficción",
+        "icon": "fa-solid fa-tag",
+        "keywords": []
+      },
+      {
+        "name": "13 años como scout, desarrollando habilidades de liderazgo y trabajo en equipo",
+        "icon": "fa-solid fa-tag",
+        "keywords": []
+      }
+    ],
+    "references": [],
+    "publications": []
+  }
